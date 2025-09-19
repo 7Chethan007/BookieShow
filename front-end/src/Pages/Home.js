@@ -69,7 +69,7 @@ const Home = (props) => {
               <SelectMovie />
             </div>
             <div className="last_booking_details_container">
-          <LastBookingDetails/>
+              <LastBookingDetails />
             </div>
           </div>
           <div className="time_seats_container">
@@ -79,7 +79,7 @@ const Home = (props) => {
               onClick={() => {
                 handleBookNow();
               }}
-              className="BN-btn ">
+              className="BN-btn">
               Book Now
             </button>
           </div>

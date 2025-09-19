@@ -16,7 +16,7 @@ const TimeShedule = () => {
     //setting slot in localstorage
     window.localStorage.setItem("slot", value);
   };
-
+ 
   return (
     <>
       <div className="Slot_container">

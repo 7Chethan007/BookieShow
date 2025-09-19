@@ -58,3 +58,8 @@
 .last_booking_details_container .no_previous_booking_msg {
   font-size: 15px;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
