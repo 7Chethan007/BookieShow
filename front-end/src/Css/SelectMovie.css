@@ -1,14 +1,24 @@
-.SM-heading {
+
+.SM_heading {
     width: 100%;
-    font-size: 22px;
-    color: black;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 28px;
+    background: linear-gradient(90deg, #23272f 60%, #393e46 100%);
+    padding: 14px 28px 14px 18px;
+    border-radius: 12px 32px 12px 32px;
+    display: inline-block;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 16px #0008;
+    border: 1.5px solid #393e46;
 }
 
-.SM_main_container{
+.SM_main_container {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    flex-wrap: center;
-    margin-bottom: 20px;
-    color: black;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 32px;
 }

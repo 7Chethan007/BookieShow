@@ -3,6 +3,8 @@ import SelectMovie from "../Components/SelectMovie";
 import SelectSeats from "../Components/SelectSeats";
 import TimeShedule from "../Components/TimeShedule";
 import Modal from "../Components/ModalComponent";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import "../Css/Home.css";
 import BsContext from "../Context/BsContext";
 import { useContext } from "react";
@@ -61,30 +63,34 @@ const Home = (props) => {
 
   return (
     <>
+      <Header />
       <Modal />
-      <div className="container">
-        <div className="selection_container">
-          <div className="wrapper">
-            <div className="select_movie_component">
-              <SelectMovie />
+      <div className="centered-content">
+        <div className="container">
+          <div className="selection_container">
+            <div className="wrapper">
+              <div className="select_movie_component">
+                <SelectMovie />
+              </div>
+              <div className="last_booking_details_container">
+                <LastBookingDetails />
+              </div>
             </div>
-            <div className="last_booking_details_container">
-              <LastBookingDetails />
+            <div className="time_seats_container">
+              <TimeShedule />
+              <SelectSeats />
+              <button
+                onClick={() => {
+                  handleBookNow();
+                }}
+                className="BN-btn">
+                Book Now
+              </button>
             </div>
-          </div>
-          <div className="time_seats_container">
-            <TimeShedule />
-            <SelectSeats />
-            <button
-              onClick={() => {
-                handleBookNow();
-              }}
-              className="BN-btn">
-              Book Now
-            </button>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
