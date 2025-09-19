@@ -3,7 +3,7 @@ import SelectMovie from "../Components/SelectMovie";
 import "../Css/Home.css";
 import LastBookingDetails from "../Components/LastBookingDetails";
 import TimeSchedule from "../Components/TimeSchedule";
-import SelectSeatings from "../Components/SelectSeatings";
+import SelectSeats from "../Components/SelectSeats";
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
       </div>
       <div className="time_seats_container">
         <TimeSchedule/>
-        <SelectSeatings/>
+        <SelectSeats/>
         <button className="BN-btn">Book Now</button>
       </div>
     </div>
