@@ -41,4 +41,4 @@ The frontend communicates with the backend API (default: [http://localhost:5000/
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
