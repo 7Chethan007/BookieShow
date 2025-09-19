@@ -44,4 +44,4 @@ This is the backend service for BookieShow, a movie ticket booking application. 
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
