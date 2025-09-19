@@ -49,4 +49,4 @@ BookieShow is a full-stack web application for booking movie tickets online. It 
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
