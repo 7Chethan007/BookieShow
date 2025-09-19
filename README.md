@@ -4,13 +4,11 @@ BookieShow is a full-stack web application for booking movie tickets online. It 
 
 ---
 
-## 🌐 Live Preview
+## 🌐 Preview
 
 > **Preview the hosted app:**
 >
-> [![BookieShow Preview](front-end/public/logo192.png)](https://your-deployment-url.com)
->
-> [https://your-deployment-url.com](https://your-deployment-url.com)
+> ![BookieShow Preview](public/Screenshot_of_hosted_page.png)
 
 ---
 
