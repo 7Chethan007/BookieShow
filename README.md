@@ -50,21 +50,18 @@ BookieShow is a full-stack web application for booking movie tickets online. It 
     ```sh
     npm start
     ```
+    ![backend-working](public/back-end-working.png)
 5. In a new terminal, start the front-end:
     ```sh
     cd ../front-end
     npm start
     ```
+    ![frontend-working](public/front-end-working.png)
 6. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
-
-## App Icons
-
-| ![Logo 192](front-end/public/logo192.png) | ![Logo 512](front-end/public/logo512.png) |
-|:----------------------------------------:|:----------------------------------------:|
-| 192x192 PNG                              | 512x512 PNG                              |
-
+### MongoDB Stats - MongoCompass
+![mongo-compass](public/MongoCompassUpdates.png)
 ---
 
 ## License
